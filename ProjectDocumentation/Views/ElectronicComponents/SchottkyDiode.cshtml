@@ -1,0 +1,41 @@
+﻿@model IEnumerable<ProjectDocumentation.Models.ElectronicComponentModel>
+
+@{
+    ViewBag.Title = "SchottkyDiode";
+}
+
+<h2>SchottkyDiode</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Location)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Specifications)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Location)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quantity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Specifications)
+        </td>
+    </tr>
+}
+
+</table>
+
+<h3>Trivia</h3>
+
+<p>The schottky diode is like any other diode however its foward voltage drop is lower than normal diodes so less power is lost. They also have
+    higher switching speeds meaning they can be used at higher frequencies. A property which is useful in rectification</p>

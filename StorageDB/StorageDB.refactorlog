@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="5cabed49-7e5f-4d0a-bc2b-26dabfda3e17" ChangeDateTime="10/06/2021 10:27:38">
+    <Property Name="ElementName" Value="[dbo].[IngredientsTable].[IngredientNa,e]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[IngredientsTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IngredientName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="061deba0-5f8a-4bbd-a7f8-a487b67dddf8" ChangeDateTime="10/06/2021 10:33:13">
+    <Property Name="ElementName" Value="[dbo].[ProblemAndSolutionTable].[PRoblem]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ProblemAndSolutionTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Problem" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c691e09a-43db-4083-b087-855c732c085b" ChangeDateTime="10/07/2021 09:41:38">
+    <Property Name="ElementName" Value="[dbo].[CraftingTable].[IngredientID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CraftingTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ListOfIngredientID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a87af95a-bbbb-412f-a447-a6015a9ba296" ChangeDateTime="10/08/2021 08:47:22">
+    <Property Name="ElementName" Value="[dbo].[ProjectFormatTable].[CraftingID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ProjectFormatTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ResultName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ef8d4675-9087-4e8d-b2c1-eeaf6f2148dc" ChangeDateTime="10/08/2021 08:47:31">
+    <Property Name="ElementName" Value="[dbo].[ProjectFormatTable].[ProblemAndSolutionID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ProjectFormatTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Problem" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6cb87d61-ef6f-4df9-87cb-7b092fdd3971" ChangeDateTime="10/08/2021 08:49:42">
+    <Property Name="ElementName" Value="[dbo].[CraftingTable].[ListOfIngredientID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CraftingTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ListOfIngredientName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="18c4d6b5-fca6-425c-9615-a1c4a2aa8716" ChangeDateTime="10/09/2021 08:17:15">
+    <Property Name="ElementName" Value="[dbo].[ProjectFormatTable].[Problem]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ProjectFormatTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ListOfProblemName" />
+  </Operation>
+</Operations>
